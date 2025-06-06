@@ -28,7 +28,7 @@ function Navbar() {
     <div className="flex rounded-3xl sticky   justify-between items-center px-6 py-4 bg-zinc-800 text-white ">
       {/* Logo */}
       <div>
-        <p className="text-4xl  font-bold font-ubuntu ">
+        <p className="text-4xl text-white font-bold font-ubuntu ">
           ayush<span className="text-red-400">.</span>
         </p>
       </div>
@@ -54,7 +54,7 @@ function Navbar() {
           >
             <FcMenu className="dark:text-red-800 text-3xl" />
           </span>
-          <button className="bg-red-400 px-4 py-2 rounded-3xl font-ubuntu font-semibold hover:bg-black hover:outline-amber-50 hover:outline-1 hover:cursor-pointer hover:scale-104 transition-all duration-300 ">
+          <button className="bg-red-400 px-4 py-2 text-white  rounded-3xl font-ubuntu font-semibold hover:bg-black hover:outline-amber-50 hover:outline-1 hover:cursor-pointer hover:scale-104 transition-all duration-300 ">
             Hire Me
           </button>
         </div>
