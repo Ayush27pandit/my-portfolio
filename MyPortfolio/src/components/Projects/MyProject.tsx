@@ -132,7 +132,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           href={LiveLink}
           className="bg-red-500 rounded-xl px-4 py-1 hover:bg-red-400 font-ubuntu text-md"
         >
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-2 text-white">
             Live
             <IoIosSend />
           </span>

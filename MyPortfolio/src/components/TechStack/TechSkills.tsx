@@ -87,7 +87,7 @@ const ReviewCard = ({ img }: { img: string }) => {
 
 export function TechSkills() {
   return (
-    <div className="relative pl-2 flex w-full flex-col items-center justify-center overflow-hidden">
+    <div className="relative pl-2 flex w-full bg-black flex-col items-center justify-center overflow-hidden">
       <Marquee pauseOnHover className="[--duration:10s]">
         {firstRow.map((tech) => (
           <ReviewCard key={tech.name} {...tech} />
