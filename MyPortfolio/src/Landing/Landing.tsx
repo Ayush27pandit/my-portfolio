@@ -6,7 +6,7 @@ import BLogCta from "@/components/Blog/BLogCta";
 
 function Landing() {
   return (
-    <div className="dark:bg-black p-6  md:p-10">
+    <div className="bg-black p-6  md:p-10">
       {/* Navbar */}
       <Navbar />
       {/* Main-Section */}
