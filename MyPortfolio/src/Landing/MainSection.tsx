@@ -132,47 +132,36 @@ function MainSection() {
             </div>
           </div> */}
 
-          <div className="bg-zinc-900 p-8  rounded-xl overflow-hidden">
-            <h2 className="text-xl font-normal font-arvo mb-4 text-white">
-              Skills & Technologies I Know
+          <div className="bg-zinc-900 p-8 rounded-xl overflow-hidden">
+            <h2 className="text-xl font-normal font-arvo mb-6 text-white">
+              Education
             </h2>
 
-            {/* Marquee Wrapper */}
-            <div className="relative w-full overflow-hidden">
-              <div className="flex gap-12 animate-marquee whitespace-nowrap text-gray-400 text-base font-medium font-ubuntu">
-                {/* Repeating skills for loop */}
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>React</span>
-                <span>Tailwind CSS</span>
-                <span>Node.js</span>
-                <span>Express</span>
-                <span>MongoDB</span>
-                <span>Firebase</span>
-                <span>PostgreSQL</span>
-                <span>TypeScript</span>
-                <span>Next.js</span>
-                <span>Python</span>
-                <span>Git</span>
-                <span>Linux</span>
+            <div className="space-y-6 text-gray-300 font-ubuntu text-base">
+              {/* Degree 1 */}
+              <div className="border-l-4 border-red-400 pl-4">
+                <div className="flex justify-between">
+                  <p className="text-lg font-semibold text-white">
+                    B.Tech in Computer Science
+                  </p>
+                  <p className="text-sm"> 2022 - 2026</p>
+                </div>
+                <p className="text-md text-gray-400">
+                  Bhilai Institute of Technology, Durg
+                </p>
+              </div>
 
-                {/* Repeat again for smooth looping */}
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>React</span>
-                <span>Tailwind CSS</span>
-                <span>Node.js</span>
-                <span>Express</span>
-                <span>MongoDB</span>
-                <span>Firebase</span>
-                <span>PostgreSQL</span>
-                <span>TypeScript</span>
-                <span>Next.js</span>
-                <span>Python</span>
-                <span>Git</span>
-                <span>Linux</span>
+              {/* Degree 2 */}
+              <div className="border-l-4 border-blue-400 pl-4">
+                <div className="flex justify-between">
+                  <p className="text-lg font-semibold text-white">
+                    Higher Secondary (12th)
+                  </p>
+                  <p className="text-sm"> 2021</p>
+                </div>
+                <p className="text-sm text-gray-400">
+                  Rungta Public School, Durg
+                </p>
               </div>
             </div>
           </div>

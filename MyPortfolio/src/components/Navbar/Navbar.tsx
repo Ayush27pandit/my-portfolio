@@ -25,7 +25,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex rounded-3xl   justify-between items-center px-6 py-4 dark:bg-zinc-800 dark:text-white ">
+    <div className="flex rounded-3xl sticky   justify-between items-center px-6 py-4 dark:bg-zinc-800 dark:text-white ">
       {/* Logo */}
       <div>
         <p className="text-4xl  font-bold font-ubuntu ">
